@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ID_Card.css">
+</head>
+<body>
+    <h1 class="heading">ID Card Generator.</h1>
+    <div class="container">
+        <div class="child1">
+         <h1 class="child1_heading">Enter Student Details</h1>
+
+         <label for="#">Enter Name
+        </label><br>
+        <input id="Name" type="text">
+         <label for="#">Enter College Name
+        </label><br>
+        <input id="CName" type="text">
+         <label for="#">Enter Location
+        </label>
+        <input id="Location" type="text">
+         <label for="#">Upload Image: 
+        </label>
+        <input id="File" type="file">
+        <button class="child1_btn" onclick="create()">Create ID</button>
+        
+        </div>
+
+
+<!-- cannot input the browse feature in our assignement as we are not done with the jQuery YET!! -->
+
+
+
+
+
+
+        <div   class="child2">
+            
+            <div class="demo">
+            <img id="Img"></img>
+            <div id="ID_Card" class="child2_child">
+            <p id="NameValue"></p>
+            <p id="CollegeValue"></p>
+            <p id="LocationValue"></p>
+    
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="ID_Card.js"></script>
+</html>
