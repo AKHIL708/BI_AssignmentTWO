@@ -1,0 +1,124 @@
+
+.heading{
+    background-color:rgb(64, 64, 247); 
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px black;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    border: 1px solid rgb(157, 157, 157);
+    display: flex;
+    flex-direction:column;
+    width: 629px;
+    height: 450px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+.child2{
+    border: 1px solid rgb(157, 157, 157);
+    width: 720px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.child2_child{
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    float: left;
+    font-weight: bolder;
+    flex-direction: column;
+    width: 230px;
+    height: 150px;
+    color: black;
+    border-radius: 25px;
+    
+    
+}
+.child2_updatechild{
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    float: left;
+    font-weight: bolder;
+    flex-direction: column;
+    width: 250px;
+    box-shadow:5px 5px 8px black;
+    height: 150px;
+    color: black;
+    border-radius: 25px;
+    background-color: blanchedalmond; 
+    
+    
+}
+.demo{
+    display: flex;
+    border-radius: 15px ;
+
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin: 15px;
+}
+.child1_heading{
+    display: flex;
+    color: #4f4ff3;
+    position: relative;
+    top: -30px;
+}
+.child2_heading{
+    display: flex;
+    position: relative;
+    color: #4f4ff3;
+    top: -80px;
+}
+
+label{
+    color: black;
+    font-weight: bolder;
+}
+.child1_btn{
+    cursor: pointer;
+    width: 75px;
+    height: 25px;
+}
+.child1_btn:hover{
+    transition-duration: 0.3s;
+    background-color: green;
+    color: white;
+    width:90px;
+    font-weight: bolder;
+    border: 5px solid green;
+    border-radius: 2px;
+}
+
+#Img{
+    margin-top: 25px;
+    width: auto;
+    height: 120px;
+}
+/*cannot input the browse feature in our assignement as we are not done with the jQuery YET!!  */
